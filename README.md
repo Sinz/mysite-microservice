@@ -1,4 +1,4 @@
-# single-mall-请关注项目更新及时拉取最新版本
+# mysite-请关注项目更新及时拉取最新版本
 
 ## 项目介绍
 
@@ -197,3 +197,89 @@ spring:
 
     }
   ```
+  
+
+* 7 docker镜像 
+```
+（1）私有仓库搭建
+
+  1. 拉取私有仓库镜像：docker pull resigtry
+  
+  2. 启动私有仓库容器：docker run -di --name=registry -p 5000:5000 registry
+  
+  3. 打开浏览器查看：http://192.168.184.135:5000/v2/_catalog
+  
+  4. 修改daemon.json：vi /etc/docker/daemon.json
+    添加{"insecure-registries":["192.168.184.135:5000"]}
+  
+  5. 重启docker服务：systemctl restart docker
+  
+ （2）镜像上传至私有仓库
+ 
+  1. 标记此镜像为私有仓库的镜像：docker tag jdk1.8 192.168.184.135:5000/jdk1.8
+  
+  2. 再次启动私有服务容器：docker start registry
+  
+  3. 上传标记的镜像：docker push 192.168.184.135:5000/jdk1.8
+  
+  （3）docker maven 插件
+  
+  1. 修改宿主机的docker配置，让其可以远程访问： vi /lib/systemd/system/docker.service
+  
+  2. 其中ExecStart=后添加配置 -H tcp://0.0.0.0:2375 -H unix:///var/run/docker.sock
+  
+  3. 刷新配置，重启服务
+  systemctl daemon-reload 
+  systemctl restart docker 
+  docker start registry
+  
+  4. docker maven plugin 设置如下， 然后直接maven clean , maven package就可以自动生成Dockerfile,并进行打包上传
+  浏览器访问 http://192.168.184.135:5000/v2/_catalog ;
+  
+  <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <!-- Docker maven plugin -->
+            <plugin>
+                <groupId>com.spotify</groupId>
+                <artifactId>docker-maven-plugin</artifactId>
+                <version>1.0.0</version>
+                <executions>
+                    <execution>
+                        <id>build-image</id>
+                        <!--用户只需执行mvn package ，就会自动执行mvn docker:build-->
+                        <phase>package</phase>
+                        <goals>
+                            <goal>build</goal>
+                        </goals>
+                    </execution>
+                </executions>
+
+                <configuration>
+                    <imageName>192.168.89.137:5000/${project.artifactId}:${project.version}</imageName>
+                    <baseImage>jdk1.8</baseImage>
+                    <entryPoint>["java","-jar","/${project.build.finalName}.jar"]</entryPoint>
+                    <resources>
+                        <resource>
+                            <targetPath>/</targetPath>
+                            <directory>${project.build.directory}</directory>
+                            <include>${project.build.finalName}.jar</include>
+                        </resource>
+                    </resources>
+                    <dockerHost>http://192.168.89.137:2375</dockerHost>
+                </configuration>
+            </plugin>
+            <!-- Docker maven plugin -->
+        </plugins>
+    </build>
+    
+  5. 宿主机查看镜像： docker images
+  
+  6. 启动容器： docker run -di --name=eureka -p 6868:6868 192.168.89.137:5000/mysite-eureka:1.0-SNAPSHOT
+  
+```
+
+* 8 
