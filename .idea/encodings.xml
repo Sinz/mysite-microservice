@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/mysite-article/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mysite-base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mysite-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mysite-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mysite-eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mysite-friend/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mysite-gathering/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mysite-manager/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mysite-qa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mysite-recruit/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mysite-search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mysite-sms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mysite-spit/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mysite-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mysite-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mysite-web/src/main/java" charset="UTF-8" />
+  </component>
+</project>

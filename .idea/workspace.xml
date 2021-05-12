@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bfd2272e-5ce5-4b78-baed-ab47705f7b14" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gradle/6.7/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.7/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/configuration-cache/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/JPASupport-project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5c9d4022-fe32-4a3a-ba1e-8472110f864b.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b2e13456-852f-4bea-8888-67ab581f7cff.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b2e13456-852f-4bea-8888-67ab581f7cff/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b2e13456-852f-4bea-8888-67ab581f7cff/storage_v2/_src_/schema/tensquare_article.MSm5fQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b2e13456-852f-4bea-8888-67ab581f7cff/storage_v2/_src_/schema/tensquare_base.doyO1w.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b2e13456-852f-4bea-8888-67ab581f7cff/storage_v2/_src_/schema/tensquare_friend.A7vbNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b2e13456-852f-4bea-8888-67ab581f7cff/storage_v2/_src_/schema/tensquare_gathering.gm0khg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b2e13456-852f-4bea-8888-67ab581f7cff/storage_v2/_src_/schema/tensquare_qa.9bifgA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b2e13456-852f-4bea-8888-67ab581f7cff/storage_v2/_src_/schema/tensquare_recruit.eePo6Q.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b2e13456-852f-4bea-8888-67ab581f7cff/storage_v2/_src_/schema/tensquare_user.cHGX1w.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/free-mybatis-generator-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/src/main/java/com/master/article/ArticleApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/src/main/java/com/master/article/configuration/Swagger2Conf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/src/main/java/com/master/article/controller/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/src/main/java/com/master/article/controller/BaseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/src/main/java/com/master/article/controller/ChannelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/src/main/java/com/master/article/controller/ColumnController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/src/main/java/com/master/article/dao/ArticleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/src/main/java/com/master/article/dao/ChannelDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/src/main/java/com/master/article/dao/ColumnDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/src/main/java/com/master/article/pojo/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/src/main/java/com/master/article/pojo/Channel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/src/main/java/com/master/article/pojo/Column.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/src/main/java/com/master/article/service/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/src/main/java/com/master/article/service/ChannelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/src/main/java/com/master/article/service/ColumnService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/src/main/resources/article-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/ArticleApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/configuration/Swagger2Conf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/controller/ArticleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/controller/BaseExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/controller/ChannelController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/controller/ColumnController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/dao/ArticleDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/dao/ChannelDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/dao/ColumnDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/pojo/Article.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/pojo/Channel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/pojo/Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/service/ArticleService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/service/ArticleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/service/ChannelService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/service/ChannelService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/service/ColumnService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/service/ColumnService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/mysite-base.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/src/main/java/com/master/BaseApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/src/main/java/com/master/base/configuration/Swagger2Conf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/src/main/java/com/master/base/controller/BaseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/src/main/java/com/master/base/controller/LabelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/src/main/java/com/master/base/dao/CityDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/src/main/java/com/master/base/dao/LabelDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/src/main/java/com/master/base/dao/UlDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/src/main/java/com/master/base/pojo/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/src/main/java/com/master/base/pojo/Label.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/src/main/java/com/master/base/pojo/Ul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/src/main/java/com/master/base/service/LabelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/src/main/resources/base-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/src/test/java/com/master/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/src/test/java/com/master/base/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/target/classes/base-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/target/classes/com/master/BaseApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/target/classes/com/master/base/configuration/Swagger2Conf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/target/classes/com/master/base/controller/BaseExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/target/classes/com/master/base/controller/LabelController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/target/classes/com/master/base/dao/CityDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/target/classes/com/master/base/dao/LabelDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/target/classes/com/master/base/dao/UlDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/target/classes/com/master/base/pojo/City.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/target/classes/com/master/base/pojo/Label.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/target/classes/com/master/base/pojo/Ul.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/target/classes/com/master/base/service/LabelService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/target/classes/com/master/base/service/LabelService$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/target/classes/com/master/base/service/LabelService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/target/test-classes/com/master/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-base/target/test-classes/com/master/base/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-common/src/main/java/common/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-common/src/main/java/configuration/Swagger2Conf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-common/src/main/java/entity/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-common/src/main/java/entity/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-common/src/main/java/entity/StatusCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-common/src/main/java/util/IdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-common/src/main/java/util/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-common/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-common/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-common/target/classes/common/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-common/target/classes/configuration/Swagger2Conf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-common/target/classes/entity/PageResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-common/target/classes/entity/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-common/target/classes/entity/StatusCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-common/target/classes/util/IdWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-common/target/classes/util/JwtUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-common/target/mysite-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-common/target/mysite-common-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-config/dev-config/article-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-config/dev-config/friend-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-config/dev-config/gathering-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-config/dev-config/manager-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-config/dev-config/qa-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-config/dev-config/recruit-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-config/dev-config/search-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-config/dev-config/sms-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-config/dev-config/spit-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-config/dev-config/user-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-config/dev-config/web-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-config/mysite-config.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-config/src/main/java/com/master/config/ConfigApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-config/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-config/target/app.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-config/target/app.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-config/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-config/target/classes/com/master/config/ConfigApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-config/target/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-config/target/docker/app.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-config/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-config/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-config/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-config/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-config/target/test-classes/image_info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-eureka/mysite-eureka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-eureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-eureka/src/main/java/com/master/eureka/EurekaServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-eureka/target/app.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-eureka/target/app.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-eureka/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-eureka/target/classes/com/master/eureka/EurekaServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-eureka/target/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-eureka/target/docker/app.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-eureka/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-eureka/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-eureka/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-eureka/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-eureka/target/test-classes/image_info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-friend/mysite-friend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-friend/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-friend/src/main/java/com/master/friend/FriendApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-friend/src/main/java/com/master/friend/client/UserClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-friend/src/main/java/com/master/friend/configuration/InterceptorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-friend/src/main/java/com/master/friend/configuration/Swagger2Conf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-friend/src/main/java/com/master/friend/configuration/properties/NoAuthUrlProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-friend/src/main/java/com/master/friend/configuration/properties/RedisKeyPrefixConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-friend/src/main/java/com/master/friend/controller/FriendController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-friend/src/main/java/com/master/friend/dao/FriendDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-friend/src/main/java/com/master/friend/dao/NofriendDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-friend/src/main/java/com/master/friend/intercepter/JwtInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-friend/src/main/java/com/master/friend/pojo/Friend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-friend/src/main/java/com/master/friend/pojo/Nofriend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-friend/src/main/java/com/master/friend/service/FriendService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-friend/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-friend/src/main/resources/friend-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-friend/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/FriendApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/configuration/InterceptorConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/configuration/Swagger2Conf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/configuration/properties/NoAuthUrlProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/configuration/properties/RedisKeyPrefixConfig$Expire.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/configuration/properties/RedisKeyPrefixConfig$Prefix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/configuration/properties/RedisKeyPrefixConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/controller/FriendController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/dao/FriendDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/dao/NofriendDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/intercepter/JwtInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/pojo/Friend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/pojo/Nofriend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/service/FriendService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-gathering/mysite-gathering.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-gathering/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-gathering/src/main/java/com/master/gathering/GatheringApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-gathering/src/main/java/com/master/gathering/configuration/Swagger2Conf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-gathering/src/main/java/com/master/gathering/controller/BaseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-gathering/src/main/java/com/master/gathering/controller/GatheringController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-gathering/src/main/java/com/master/gathering/dao/GatheringDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-gathering/src/main/java/com/master/gathering/dao/UsergathDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-gathering/src/main/java/com/master/gathering/pojo/Gathering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-gathering/src/main/java/com/master/gathering/pojo/Usergath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-gathering/src/main/java/com/master/gathering/service/GatheringService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-gathering/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-gathering/src/main/resources/gathering-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-manager/mysite-manager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-manager/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-manager/src/main/java/com/master/manager/ManagerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-manager/src/main/java/com/master/manager/filter/ManageFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-manager/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-manager/src/main/resources/manager-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-manager/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-manager/target/classes/com/master/manager/ManagerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-manager/target/classes/com/master/manager/filter/ManageFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-manager/target/classes/manager-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/QaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/client/BaseClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/client/impl/BaseClientImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/configuration/InterceptorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/configuration/Swagger2Conf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/configuration/properties/NoAuthUrlProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/configuration/properties/RedisKeyPrefixConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/controller/BaseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/controller/ProblemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/controller/ReplyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/dao/ProblemDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/dao/ReplyDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/intercepter/JwtInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/pojo/Problem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/pojo/Reply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/service/ProblemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/service/ReplyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/src/main/resources/qa-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/QaApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/client/BaseClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/configuration/InterceptorConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/configuration/Swagger2Conf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/configuration/properties/NoAuthUrlProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/configuration/properties/RedisKeyPrefixConfig$Expire.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/configuration/properties/RedisKeyPrefixConfig$Prefix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/configuration/properties/RedisKeyPrefixConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/controller/BaseExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/controller/ProblemController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/controller/ReplyController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/dao/ProblemDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/dao/ReplyDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/intercepter/JwtInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/pojo/Problem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/pojo/Reply.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/service/ProblemService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/service/ProblemService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/service/ReplyService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/service/ReplyService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-recruit/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-recruit/src/main/java/com/master/recruit/RecruitApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-recruit/src/main/java/com/master/recruit/configuration/Swagger2Conf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-recruit/src/main/java/com/master/recruit/controller/BaseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-recruit/src/main/java/com/master/recruit/controller/EnterpriseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-recruit/src/main/java/com/master/recruit/controller/RecruitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-recruit/src/main/java/com/master/recruit/dao/EnterpriseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-recruit/src/main/java/com/master/recruit/dao/RecruitDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-recruit/src/main/java/com/master/recruit/pojo/Enterprise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-recruit/src/main/java/com/master/recruit/pojo/Recruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-recruit/src/main/java/com/master/recruit/service/EnterpriseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-recruit/src/main/java/com/master/recruit/service/RecruitService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-recruit/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-recruit/src/main/resources/recruit-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-search/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-search/src/main/java/com/master/search/SearchApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-search/src/main/java/com/master/search/configuration/Swagger2Conf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-search/src/main/java/com/master/search/controller/ArticleSearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-search/src/main/java/com/master/search/dao/ArticleSearchDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-search/src/main/java/com/master/search/pojo/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-search/src/main/java/com/master/search/service/ArticleSearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-search/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-search/src/main/resources/search-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-sms/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-sms/src/main/java/com/master/sms/SmsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-sms/src/main/java/com/master/sms/configuration/Swagger2Conf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-sms/src/main/java/com/master/sms/listener/SmsListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-sms/src/main/java/com/master/sms/util/SmsUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-sms/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-sms/src/main/resources/sms-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-spit/mysite-spit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-spit/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-spit/src/main/java/com/master/spit/SpitApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-spit/src/main/java/com/master/spit/configuration/Swagger2Conf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-spit/src/main/java/com/master/spit/controller/SpitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-spit/src/main/java/com/master/spit/dao/SpitDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-spit/src/main/java/com/master/spit/pojo/Spit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-spit/src/main/java/com/master/spit/service/SpitService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-spit/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-spit/src/main/resources/spit-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-test/src/main/java/com/master/test/jwt/CreateJwtTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-test/src/main/java/com/master/test/jwt/ParseJwtTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-test/src/main/java/com/master/test/mq/MqCustomer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-test/src/main/java/com/master/test/mq/MqCustomer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-test/src/main/java/com/master/test/mq/TestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-test/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-test/src/test/java/com/master/test/jwt/CreateJwtTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-test/src/test/java/com/master/test/jwt/ParseJwtTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-test/src/test/java/com/master/test/mq/MqProductor1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/src/main/java/com/master/user/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/src/main/java/com/master/user/configuration/InterceptorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/src/main/java/com/master/user/configuration/Swagger2Conf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/src/main/java/com/master/user/configuration/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/src/main/java/com/master/user/configuration/properties/NoAuthUrlProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/src/main/java/com/master/user/configuration/properties/RedisKeyPrefixConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/src/main/java/com/master/user/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/src/main/java/com/master/user/controller/BaseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/src/main/java/com/master/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/src/main/java/com/master/user/dao/AdminDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/src/main/java/com/master/user/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/src/main/java/com/master/user/intercepter/JwtInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/src/main/java/com/master/user/pojo/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/src/main/java/com/master/user/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/src/main/java/com/master/user/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/src/main/java/com/master/user/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/src/main/resources/user-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/UserApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/configuration/InterceptorConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/configuration/Swagger2Conf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/configuration/WebSecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/configuration/properties/NoAuthUrlProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/configuration/properties/RedisKeyPrefixConfig$Expire.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/configuration/properties/RedisKeyPrefixConfig$Prefix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/configuration/properties/RedisKeyPrefixConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/controller/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/controller/BaseExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/dao/AdminDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/intercepter/JwtInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/pojo/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/service/AdminService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/service/AdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/service/UserService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-user/target/classes/user-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-web/src/main/java/com/master/web/WebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-web/src/main/java/com/master/web/filter/WebFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-web/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite-web/src/main/resources/web-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/mysite-common/src/main/java/util/JwtUtil.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="JPA Inspector" value="true" />
+        <entry key="JPA Palette" value="true" />
+        <entry key="JPA Structure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="JPA Inspector" value="false" />
+        <entry key="JPA Palette" value="false" />
+        <entry key="JPA Structure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven" />
+        <option name="mavenHome" value="D:\Program\apache-maven-3.5.2-bin" />
+        <option name="userSettingsFile" value="D:\Program\apache-maven-3.5.2-bin\conf\settings.xml" />
+        <option name="workOffline" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="1rXEBHEzRwbrjj3s3Vryz8uIj8i" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql&#10;hive&#10;mongo" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mysite-web/src/main/resources" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
+    <property name="settings.editor.splitter.proportion" value="0.26755556" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\mysite-microservice\mysite-web\src\main\resources" />
+      <recent name="D:\Project\mysite-microservice\mysite-user\src\main\resources" />
+      <recent name="D:\Project\mysite-microservice\mysite-spit\src\main\resources" />
+      <recent name="D:\Project\mysite-microservice\mysite-sms\src\main\resources" />
+      <recent name="D:\Project\mysite-microservice\mysite-search\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\mysite-microservice\mysite-user" />
+      <recent name="D:\Project\mysite-microservice\mysit-article\src\main\java\com\master\article\pojo" />
+      <recent name="D:\Project\mysite-microservice\mysit-article\src\main\java\com\master\article\dao" />
+      <recent name="D:\Project\mysite-microservice\mysite-user\src\main\java" />
+      <recent name="D:\Project\mysite-microservice" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.master.test.mq" />
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.master.manager.filter" />
+      <recent name="com.master.friend.intercepter" />
+      <recent name="com.master.friend" />
+      <recent name="com.master.qa.configuration.properties" />
+      <recent name="com.master.qa.intercepter" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UserApplication (1)">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateJwtTest.Test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mysite-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.master.test.jwt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.master.test.jwt" />
+      <option name="MAIN_CLASS_NAME" value="com.master.test.jwt.CreateJwtTest" />
+      <option name="METHOD_NAME" value="Test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParseJwtTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mysite-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.master.test.jwt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.master.test.jwt" />
+      <option name="MAIN_CLASS_NAME" value="com.master.test.jwt.ParseJwtTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParseJwtTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mysite-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.master.test.jwt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.master.test.jwt" />
+      <option name="MAIN_CLASS_NAME" value="com.master.test.jwt.ParseJwtTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mysite-article" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.master.article.ArticleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mysite-common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="common.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mysite-base" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.master.BaseApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <additionalParameters>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="server.port" />
+          <option name="value" value="9011" />
+        </param>
+      </additionalParameters>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mysite-base" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.master.BaseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mysite-config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.master.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.master.config.ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mysite-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.master.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.master.eureka.EurekaServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FriendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mysite-friend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.master.friend.FriendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatheringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mysite-gathering" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.master.gathering.GatheringApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mysite-manager" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.master.manager.ManagerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QaApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mysite-qa" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.master.qa.QaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mysite-search" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.master.search.SearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mysite-sms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.master.sms.SmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpitApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mysite-spit" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.master.spit.SpitApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mysite-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.master.test.mq.TestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mysite-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.master.user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mysite-recruit" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.master.recruit.RecruitApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mysite-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.master.web.WebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ParseJwtTest.test2" />
+      <item itemvalue="JUnit.CreateJwtTest.Test3" />
+      <item itemvalue="JUnit.ParseJwtTest.test3" />
+      <item itemvalue="Spring Boot.Application (1)" />
+      <item itemvalue="Spring Boot.Application (2)" />
+      <item itemvalue="Spring Boot.GatheringApplication" />
+      <item itemvalue="Spring Boot.SearchApplication" />
+      <item itemvalue="Spring Boot.SpitApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.BaseApplication" />
+      <item itemvalue="Spring Boot.BaseApplication (1)" />
+      <item itemvalue="Spring Boot.QaApplication (1)" />
+      <item itemvalue="Spring Boot.UserApplication (1)" />
+      <item itemvalue="Spring Boot.SmsApplication" />
+      <item itemvalue="Spring Boot.TestApplication" />
+      <item itemvalue="Spring Boot.EurekaServer" />
+      <item itemvalue="Spring Boot.FriendApplication" />
+      <item itemvalue="Spring Boot.ManagerApplication" />
+      <item itemvalue="Spring Boot.WebApplication" />
+      <item itemvalue="Spring Boot.ConfigApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.EurekaServer" />
+        <item itemvalue="Spring Boot.ConfigApplication" />
+        <item itemvalue="JUnit.ParseJwtTest.test3" />
+        <item itemvalue="JUnit.CreateJwtTest.Test3" />
+        <item itemvalue="JUnit.ParseJwtTest.test2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bfd2272e-5ce5-4b78-baed-ab47705f7b14" name="Default Changelist" comment="" />
+      <created>1619113900184</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619113900184</updated>
+      <workItem from="1619113901313" duration="1409000" />
+      <workItem from="1619115333913" duration="843000" />
+      <workItem from="1619116213538" duration="493000" />
+      <workItem from="1619116734022" duration="172000" />
+      <workItem from="1619398163095" duration="764000" />
+      <workItem from="1619400316242" duration="3078000" />
+      <workItem from="1619404115775" duration="7575000" />
+      <workItem from="1619418748310" duration="13198000" />
+      <workItem from="1619438149442" duration="7672000" />
+      <workItem from="1619453770695" duration="5360000" />
+      <workItem from="1619511837795" duration="19838000" />
+      <workItem from="1619536452430" duration="6203000" />
+      <workItem from="1619542788334" duration="13410000" />
+      <workItem from="1619598003820" duration="454000" />
+      <workItem from="1619598477571" duration="3625000" />
+      <workItem from="1619610173361" duration="12891000" />
+      <workItem from="1620271999854" duration="287000" />
+      <workItem from="1620283368963" duration="27920000" />
+      <workItem from="1620459464558" duration="20949000" />
+      <workItem from="1620654242051" duration="710000" />
+      <workItem from="1620655016927" duration="46820000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/mysite-test/src/test/java/com/master/test/mq/MqProductor1.java</url>
+          <line>30</line>
+          <properties class="com.master.test.mq.MqProductor1" method="testSendFanout">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/mysite-friend/src/main/java/com/master/friend/controller/FriendController.java</url>
+          <line>25</line>
+          <properties field="friendService" class="com.master.friend.controller.FriendController" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mysite-friend/src/main/java/com/master/friend/controller/FriendController.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/intercepter/JwtInterceptor.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mysite-friend/src/main/java/com/master/friend/intercepter/JwtInterceptor.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

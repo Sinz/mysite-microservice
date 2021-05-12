@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoGeneratorSettingsState">
+    <option name="generateDatetimeDefaultValue" value="true" />
+    <option name="generateDefaultValue" value="true" />
+    <option name="generateSwaggerUIComment" value="true" />
+    <option name="ignoredFields">
+      <set>
+        <option value="" />
+      </set>
+    </option>
+    <option name="moduleName" value="mysite-friend" />
+    <option name="moduleNameToSettings">
+      <map>
+        <entry key="mysite-common">
+          <value>
+            <ModuleSettings>
+              <option name="entityPackageName" value="com.master.user.pojo" />
+              <option name="entityParentDirectory" value="$PROJECT_DIR$/mysite-base/src/main/java" />
+              <option name="repositoryPackageName" value="com.master.user.dao" />
+              <option name="repositoryParentDirectory" value="$PROJECT_DIR$/mysite-base/src/main/java" />
+            </ModuleSettings>
+          </value>
+        </entry>
+        <entry key="mysite-friend">
+          <value>
+            <ModuleSettings>
+              <option name="entityPackageName" value="com/master/friend/pojo" />
+              <option name="entityParentDirectory" value="$PROJECT_DIR$/mysite-friend/src/main/java" />
+              <option name="repositoryPackageName" value="com/master/friend/dao" />
+              <option name="repositoryParentDirectory" value="$PROJECT_DIR$/mysite-friend/src/main/java" />
+            </ModuleSettings>
+          </value>
+        </entry>
+        <entry key="mysite-gathering">
+          <value>
+            <ModuleSettings>
+              <option name="entityPackageName" value="com.master.user.pojo" />
+              <option name="entityParentDirectory" value="$PROJECT_DIR$/mysite-user/src/main/java" />
+              <option name="repositoryPackageName" value="com.master.user.dao" />
+              <option name="repositoryParentDirectory" value="$PROJECT_DIR$/mysite-gathering/src/main/java" />
+            </ModuleSettings>
+          </value>
+        </entry>
+        <entry key="mysite-user">
+          <value>
+            <ModuleSettings>
+              <option name="entityPackageName" value="com.master.article.pojo" />
+              <option name="entityParentDirectory" value="$PROJECT_DIR$/mysite-article/src/main/java" />
+              <option name="repositoryPackageName" value="com.master.article.dao" />
+              <option name="repositoryParentDirectory" value="$PROJECT_DIR$/mysite-article/src/main/java" />
+            </ModuleSettings>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="removeEntityPrefix" value="tb_" />
+    <option name="repositorySuffix" value="Dao" />
+  </component>
+  <component name="DatabaseSettingsState">
+    <option name="language" value="zh-CN" />
+  </component>
+</project>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mysite-test" />
+        <module name="mysite-common" />
+        <module name="mysite-user" />
+        <module name="mysite-search" />
+        <module name="mysite-friend" />
+        <module name="mysite-spit" />
+        <module name="mysite-base" />
+        <module name="mysite-manager" />
+        <module name="mysite-article" />
+        <module name="mysite-web" />
+        <module name="mysite-gathering" />
+        <module name="mysite-config" />
+        <module name="mysite-sms" />
+        <module name="mysite-qa" />
+        <module name="mysite-eureka" />
+        <module name="mysite-recruit" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mysite-base (1)" target="8" />
+      <module name="mysite-base (2) (com.master)" target="8" />
+      <module name="tensquare_search" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mysite-article" options="-parameters" />
+      <module name="mysite-base" options="-parameters" />
+      <module name="mysite-common" options="-parameters" />
+      <module name="mysite-config" options="-parameters" />
+      <module name="mysite-eureka" options="-parameters" />
+      <module name="mysite-friend" options="-parameters" />
+      <module name="mysite-gathering" options="-parameters" />
+      <module name="mysite-manager" options="-parameters" />
+      <module name="mysite-qa" options="-parameters" />
+      <module name="mysite-recruit" options="-parameters" />
+      <module name="mysite-search" options="-parameters" />
+      <module name="mysite-sms" options="-parameters" />
+      <module name="mysite-spit" options="-parameters" />
+      <module name="mysite-test" options="-parameters" />
+      <module name="mysite-user" options="-parameters" />
+      <module name="mysite-web" options="-parameters" />
+      <module name="tensquare_search" options="-parameters" />
+    </option>
+  </component>
+</project>

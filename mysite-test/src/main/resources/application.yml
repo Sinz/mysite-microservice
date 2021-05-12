@@ -1,0 +1,12 @@
+server:
+  port: 9202
+
+spring:
+  application:
+    name: mysite-test
+
+  rabbitmq:
+    host: 127.0.0.1
+
+
+

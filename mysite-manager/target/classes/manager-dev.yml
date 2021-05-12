@@ -1,0 +1,46 @@
+server:
+  port: 9011
+spring: 
+  application:  
+    name: mysite-manager #指定服务名
+
+  rabbitmq:
+    host: 192.168.89.137
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:6868/eureka
+  instance:
+    prefer-ip-address: true
+
+zuul:
+  routes:
+    mysite-gathering: #活动
+      path: /gathering/** #配置请求URL的请求规则
+      serviceId: mysite-gathering #指定Eureka注册中心中的服务id
+    mysite-article: #文章
+      path: /article/** #配置请求URL的请求规则
+      serviceId: mysite-article #指定Eureka注册中心中的服务id
+    mysite-base: #基础
+      path: /base/** #配置请求URL的请求规则
+      serviceId: mysite-base #指定Eureka注册中心中的服务id
+    mysite-qa: #问答
+      path: /qa/** #配置请求URL的请求规则
+      serviceId: mysite-qa #指定Eureka注册中心中的服务id
+    mysite-recruit: #招聘
+      path: /recruit/** #配置请求URL的请求规则
+      serviceId: mysite-recruit #指定Eureka注册中心中的服务id
+    mysite-spit: #吐槽
+      path: /spit/** #配置请求URL的请求规则
+      serviceId: mysite-spit #指定Eureka注册中心中的服务id
+    mysite-user: #用户
+      path: /user/** #配置请求URL的请求规则
+      serviceId: mysite-user #指定Eureka注册中心中的服务id
+    mysite-friend: #交友
+      path: /friend/** #配置请求URL的请求规则
+      serviceId: mysite-friend #指定Eureka注册中心中的服务id
+
+jwt:
+  config:
+    key: itcast
