@@ -7,51 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfd2272e-5ce5-4b78-baed-ab47705f7b14" name="Default Changelist" comment="initial">
+    <list default="true" id="bfd2272e-5ce5-4b78-baed-ab47705f7b14" name="Default Changelist" comment="updata 2021/5/13">
+      <change afterPath="$PROJECT_DIR$/mysite-eureka/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/ArticleApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/ArticleApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/controller/ArticleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/controller/BaseExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/controller/BaseExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/controller/ChannelController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/controller/ChannelController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/controller/ColumnController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/controller/ColumnController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/service/ArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/service/ArticleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/service/ChannelService.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/service/ChannelService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/service/ColumnService.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/service/ColumnService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-common/target/mysite-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-common/target/mysite-common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-common/target/mysite-common-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-common/target/mysite-common-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-config/target/app.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-config/target/app.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-config/target/app.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-config/target/app.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-config/target/docker/app.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-config/target/docker/app.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-config/target/test-classes/image_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-config/target/test-classes/image_info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-eureka/target/app.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-eureka/target/app.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-eureka/target/app.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-eureka/target/app.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-eureka/target/docker/app.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-eureka/target/docker/app.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-eureka/target/test-classes/image_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-eureka/target/test-classes/image_info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/FriendApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/FriendApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/controller/FriendController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/controller/FriendController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/dao/FriendDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/dao/FriendDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/intercepter/JwtInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/intercepter/JwtInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/service/FriendService.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/service/FriendService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-manager/target/classes/com/master/manager/ManagerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-manager/target/classes/com/master/manager/ManagerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-manager/target/classes/com/master/manager/filter/ManageFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-manager/target/classes/com/master/manager/filter/ManageFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/QaApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/QaApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/client/BaseClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/client/BaseClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/controller/BaseExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/controller/BaseExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/controller/ProblemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/controller/ProblemController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/controller/ReplyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/controller/ReplyController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/intercepter/JwtInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/intercepter/JwtInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/service/ProblemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/service/ProblemService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/service/ReplyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/service/ReplyService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/UserApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/UserApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/controller/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/controller/BaseExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/controller/BaseExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/intercepter/JwtInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/intercepter/JwtInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/service/AdminService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/service/AdminService$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/service/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/service/AdminService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/service/UserService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/service/UserService$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-eureka/src/main/resources/eureka-dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +87,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mysite-web/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mysite-eureka/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -436,7 +395,7 @@
       <workItem from="1620459464558" duration="20949000" />
       <workItem from="1620654242051" duration="710000" />
       <workItem from="1620655016927" duration="53927000" />
-      <workItem from="1620903933101" duration="2399000" />
+      <workItem from="1620903933101" duration="3418000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1620802983416</created>
@@ -459,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620905097248</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updata 2021/5/13">
+      <created>1620906575631</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620906575631</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,7 +444,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+    <MESSAGE value="updata 2021/5/13" />
+    <option name="LAST_COMMIT_MESSAGE" value="updata 2021/5/13" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
