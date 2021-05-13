@@ -238,7 +238,7 @@ spring:
   docker start registry
   
   4. docker maven plugin 设置如下， 然后直接maven clean , maven package就可以自动生成Dockerfile,并进行打包上传
-  mvn clean package docker:build -DpushImage(不知道为什么，每次都要重新下一边依赖，不过上传到jenkins不影响)
+  clean package -Dmaven.test.skip=true -DarchetypeCatalog=internal docker:build -DpushImage(不知道为什么，每次都要重新下一边依赖，不过上传到jenkins不影响)
   浏览器访问 http://192.168.184.135:5000/v2/_catalog ; 
   
   <build>
