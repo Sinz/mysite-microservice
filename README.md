@@ -76,9 +76,13 @@ nginx | 1.10 | http://nginx.org/en/download.html
 ## 遇坑集锦
 
 * 1 为什么jpa 进行update 不会自动更新啊？？？？
+
+```
     * 坑爹呀！！！ 使用@Apiparam 注释的时候，因为导致@PathVarial 没有将值传进JPA 生成的sql语句！！！将行内的@Apiparam移到方法上就成功了。
     * 正确： binding parameter [1] as [VARCHAR] - [1]
     * 错误： binding parameter [1] as [VARCHAR] - {[1]}
+```
+
 
 * 2 Redis 基本操作：
 ```
@@ -282,4 +286,4 @@ spring:
   
 ```
 
-* 8 
+* 7. maven install 时，common包提示不存在， 这个时候可以先进行compile ， 然后在进行install; 

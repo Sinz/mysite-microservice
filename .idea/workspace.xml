@@ -8,91 +8,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfd2272e-5ce5-4b78-baed-ab47705f7b14" name="Default Changelist" comment="initial">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-article/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-article/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-article/src/main/java/com/master/article/ArticleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-article/src/main/java/com/master/article/ArticleApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-article/src/main/java/com/master/article/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-article/src/main/java/com/master/article/controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-article/src/main/java/com/master/article/controller/BaseExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-article/src/main/java/com/master/article/controller/BaseExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-article/src/main/java/com/master/article/controller/ChannelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-article/src/main/java/com/master/article/controller/ChannelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-article/src/main/java/com/master/article/controller/ColumnController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-article/src/main/java/com/master/article/controller/ColumnController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-article/src/main/java/com/master/article/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-article/src/main/java/com/master/article/service/ArticleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-article/src/main/java/com/master/article/service/ChannelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-article/src/main/java/com/master/article/service/ChannelService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-article/src/main/java/com/master/article/service/ColumnService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-article/src/main/java/com/master/article/service/ColumnService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-base/src/main/java/com/master/BaseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-base/src/main/java/com/master/base/BaseApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-base/src/main/java/com/master/base/controller/BaseExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-base/src/main/java/com/master/base/controller/BaseExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-base/src/main/java/com/master/base/controller/LabelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-base/src/main/java/com/master/base/controller/LabelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-base/src/main/java/com/master/base/service/LabelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-base/src/main/java/com/master/base/service/LabelService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-base/target/classes/com/master/BaseApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-base/target/classes/com/master/base/configuration/Swagger2Conf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-base/target/classes/com/master/base/controller/BaseExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-base/target/classes/com/master/base/controller/LabelController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-base/target/classes/com/master/base/dao/CityDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-base/target/classes/com/master/base/dao/LabelDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-base/target/classes/com/master/base/dao/UlDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-base/target/classes/com/master/base/pojo/City.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-base/target/classes/com/master/base/pojo/Label.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-base/target/classes/com/master/base/pojo/Ul.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-base/target/classes/com/master/base/service/LabelService$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-base/target/classes/com/master/base/service/LabelService$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-base/target/classes/com/master/base/service/LabelService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-base/target/test-classes/com/master/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-base/target/test-classes/com/master/base/TestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-common/src/main/java/configuration/Swagger2Conf.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-common/src/main/java/common/configuration/Swagger2Conf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-common/src/main/java/entity/PageResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-common/src/main/java/common/entity/PageResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-common/src/main/java/entity/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-common/src/main/java/common/entity/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-common/src/main/java/entity/StatusCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-common/src/main/java/common/entity/StatusCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-common/src/main/java/util/IdWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-common/src/main/java/common/util/IdWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-common/src/main/java/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-common/src/main/java/common/util/JwtUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-common/target/classes/configuration/Swagger2Conf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-common/target/classes/entity/PageResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-common/target/classes/entity/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-common/target/classes/entity/StatusCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-common/target/classes/util/IdWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-common/target/classes/util/JwtUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/ArticleApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/ArticleApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/controller/ArticleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/controller/BaseExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/controller/BaseExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/controller/ChannelController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/controller/ChannelController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/controller/ColumnController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/controller/ColumnController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/service/ArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/service/ArticleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/service/ChannelService.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/service/ChannelService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/service/ColumnService.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-article/target/classes/com/master/article/service/ColumnService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite-common/target/mysite-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-common/target/mysite-common-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite-common/target/mysite-common-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-common/target/mysite-common-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-friend/src/main/java/com/master/friend/FriendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-friend/src/main/java/com/master/friend/FriendApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-friend/src/main/java/com/master/friend/controller/FriendController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-friend/src/main/java/com/master/friend/controller/FriendController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-friend/src/main/java/com/master/friend/intercepter/JwtInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-friend/src/main/java/com/master/friend/intercepter/JwtInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-gathering/src/main/java/com/master/gathering/GatheringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-gathering/src/main/java/com/master/gathering/GatheringApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-gathering/src/main/java/com/master/gathering/controller/BaseExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-gathering/src/main/java/com/master/gathering/controller/BaseExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-gathering/src/main/java/com/master/gathering/controller/GatheringController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-gathering/src/main/java/com/master/gathering/controller/GatheringController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-gathering/src/main/java/com/master/gathering/service/GatheringService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-gathering/src/main/java/com/master/gathering/service/GatheringService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-manager/src/main/java/com/master/manager/ManagerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-manager/src/main/java/com/master/manager/ManagerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-manager/src/main/java/com/master/manager/filter/ManageFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-manager/src/main/java/com/master/manager/filter/ManageFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/QaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/QaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/client/BaseClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/client/BaseClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/client/impl/BaseClientImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/client/impl/BaseClientImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/controller/BaseExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/controller/BaseExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/controller/ProblemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/controller/ProblemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/controller/ReplyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/controller/ReplyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/intercepter/JwtInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/intercepter/JwtInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/service/ProblemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/service/ProblemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/service/ReplyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-qa/src/main/java/com/master/qa/service/ReplyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-recruit/src/main/java/com/master/recruit/RecruitApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-recruit/src/main/java/com/master/recruit/RecruitApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-recruit/src/main/java/com/master/recruit/controller/BaseExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-recruit/src/main/java/com/master/recruit/controller/BaseExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-recruit/src/main/java/com/master/recruit/controller/EnterpriseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-recruit/src/main/java/com/master/recruit/controller/EnterpriseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-recruit/src/main/java/com/master/recruit/controller/RecruitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-recruit/src/main/java/com/master/recruit/controller/RecruitController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-recruit/src/main/java/com/master/recruit/service/EnterpriseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-recruit/src/main/java/com/master/recruit/service/EnterpriseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-recruit/src/main/java/com/master/recruit/service/RecruitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-recruit/src/main/java/com/master/recruit/service/RecruitService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-search/src/main/java/com/master/search/SearchApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-search/src/main/java/com/master/search/SearchApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-search/src/main/java/com/master/search/controller/ArticleSearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-search/src/main/java/com/master/search/controller/ArticleSearchController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-sms/src/main/java/com/master/sms/SmsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-sms/src/main/java/com/master/sms/SmsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-spit/src/main/java/com/master/spit/SpitApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-spit/src/main/java/com/master/spit/SpitApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-spit/src/main/java/com/master/spit/controller/SpitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-spit/src/main/java/com/master/spit/controller/SpitController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-spit/src/main/java/com/master/spit/service/SpitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-spit/src/main/java/com/master/spit/service/SpitService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-user/src/main/java/com/master/user/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-user/src/main/java/com/master/user/UserApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-user/src/main/java/com/master/user/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-user/src/main/java/com/master/user/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-user/src/main/java/com/master/user/controller/BaseExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-user/src/main/java/com/master/user/controller/BaseExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-user/src/main/java/com/master/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-user/src/main/java/com/master/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-user/src/main/java/com/master/user/intercepter/JwtInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-user/src/main/java/com/master/user/intercepter/JwtInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-user/src/main/java/com/master/user/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-user/src/main/java/com/master/user/service/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-user/src/main/java/com/master/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-user/src/main/java/com/master/user/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-config/target/app.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-config/target/app.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-config/target/app.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-config/target/app.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-config/target/docker/app.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-config/target/docker/app.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-config/target/test-classes/image_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-config/target/test-classes/image_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-eureka/target/app.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-eureka/target/app.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-eureka/target/app.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-eureka/target/app.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-eureka/target/docker/app.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-eureka/target/docker/app.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-eureka/target/test-classes/image_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-eureka/target/test-classes/image_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/FriendApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/FriendApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/controller/FriendController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/controller/FriendController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/dao/FriendDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/dao/FriendDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/intercepter/JwtInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/intercepter/JwtInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/service/FriendService.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-friend/target/classes/com/master/friend/service/FriendService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-manager/target/classes/com/master/manager/ManagerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-manager/target/classes/com/master/manager/ManagerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-manager/target/classes/com/master/manager/filter/ManageFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-manager/target/classes/com/master/manager/filter/ManageFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/QaApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/QaApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/client/BaseClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/client/BaseClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/controller/BaseExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/controller/BaseExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/controller/ProblemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/controller/ProblemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/controller/ReplyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/controller/ReplyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/intercepter/JwtInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/intercepter/JwtInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/service/ProblemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/service/ProblemService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/service/ReplyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-qa/target/classes/com/master/qa/service/ReplyService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/UserApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/UserApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/controller/BaseExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/controller/BaseExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/intercepter/JwtInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/intercepter/JwtInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/service/AdminService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/service/AdminService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/service/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/service/AdminService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/service/UserService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/service/UserService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-user/target/classes/com/master/user/service/UserService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -477,7 +436,7 @@
       <workItem from="1620459464558" duration="20949000" />
       <workItem from="1620654242051" duration="710000" />
       <workItem from="1620655016927" duration="53927000" />
-      <workItem from="1620903933101" duration="1137000" />
+      <workItem from="1620903933101" duration="2399000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1620802983416</created>
@@ -493,7 +452,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620804683390</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updata 2021/5/13">
+      <created>1620905097248</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620905097248</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
