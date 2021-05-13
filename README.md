@@ -287,4 +287,19 @@ spring:
   
 ```
 
-* 7. maven install 时，common包提示不存在， 这个时候可以先进行compile ， 然后在进行install; 
+* 7. maven install 时，common包提示不存在， 
+  对于需要被依赖的包，需要在pom文件中添加如下plugin
+```
+   
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <classifier>execute</classifier>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+```
