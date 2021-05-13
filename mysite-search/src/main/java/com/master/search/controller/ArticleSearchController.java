@@ -2,9 +2,9 @@ package com.master.search.controller;
 
 import com.master.search.pojo.Article;
 import com.master.search.service.ArticleSearchService;
-import entity.PageResult;
-import entity.Result;
-import entity.StatusCode;
+import common.entity.PageResult;
+import common.entity.Result;
+import common.entity.StatusCode;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;

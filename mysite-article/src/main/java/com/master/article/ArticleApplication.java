@@ -1,6 +1,6 @@
 package com.master.article;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import util.IdWorker;
+import common.util.IdWorker;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;

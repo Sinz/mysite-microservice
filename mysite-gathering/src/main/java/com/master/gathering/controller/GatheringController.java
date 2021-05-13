@@ -1,5 +1,4 @@
 package com.master.gathering.controller;
-import java.util.List;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,9 +13,9 @@ import org.springframework.web.bind.annotation.RestController;
 import com.master.gathering.pojo.Gathering;
 import com.master.gathering.service.GatheringService;
 
-import entity.PageResult;
-import entity.Result;
-import entity.StatusCode;
+import common.entity.PageResult;
+import common.entity.Result;
+import common.entity.StatusCode;
 /**
  * 控制器层
  * @author Administrator

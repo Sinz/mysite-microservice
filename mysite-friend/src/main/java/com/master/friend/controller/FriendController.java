@@ -1,8 +1,8 @@
 package com.master.friend.controller;
 
 import com.master.friend.service.FriendService;
-import entity.Result;
-import entity.StatusCode;
+import common.entity.Result;
+import common.entity.StatusCode;
 import io.jsonwebtoken.Claims;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -2,9 +2,9 @@ package com.master.qa.controller;
 import java.util.Map;
 
 import com.master.qa.client.BaseClient;
-import entity.PageResult;
-import entity.Result;
-import entity.StatusCode;
+import common.entity.PageResult;
+import common.entity.Result;
+import common.entity.StatusCode;
 import io.jsonwebtoken.Claims;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;

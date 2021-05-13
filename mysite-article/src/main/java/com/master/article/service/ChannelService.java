@@ -11,7 +11,7 @@ import javax.persistence.criteria.Root;
 
 import com.master.article.dao.ChannelDao;
 import com.master.article.pojo.Channel;
-import util.IdWorker;
+import common.util.IdWorker;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

@@ -16,10 +16,10 @@ import org.springframework.web.bind.annotation.RestController;
 import com.master.user.pojo.User;
 import com.master.user.service.UserService;
 
-import entity.PageResult;
-import entity.Result;
-import entity.StatusCode;
-import util.JwtUtil;
+import common.entity.PageResult;
+import common.entity.Result;
+import common.entity.StatusCode;
+import common.util.JwtUtil;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;

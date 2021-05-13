@@ -2,9 +2,9 @@ package com.master.base.controller;
 
 import com.master.base.pojo.Label;
 import com.master.base.service.LabelService;
-import entity.PageResult;
-import entity.Result;
-import entity.StatusCode;
+import common.entity.PageResult;
+import common.entity.Result;
+import common.entity.StatusCode;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;

@@ -2,9 +2,9 @@ package com.master.spit.controller;
 
 import com.master.spit.pojo.Spit;
 import com.master.spit.service.SpitService;
-import entity.PageResult;
-import entity.Result;
-import entity.StatusCode;
+import common.entity.PageResult;
+import common.entity.Result;
+import common.entity.StatusCode;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;

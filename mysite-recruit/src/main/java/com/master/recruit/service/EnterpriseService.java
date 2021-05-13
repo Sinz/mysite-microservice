@@ -9,7 +9,7 @@ import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
 
-import util.IdWorker;
+import common.util.IdWorker;
 import com.master.recruit.dao.EnterpriseDao;
 import com.master.recruit.pojo.Enterprise;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,7 +38,7 @@ public class EnterpriseService {
 	 * @Description 推荐热门
 	 * @Date 16:31 2021/4/27
 	 * @param isHot : 是否热门
-	 * @return : java.util.List<Enterprise>
+	 * @return : java.common.util.List<Enterprise>
 	 **/
 	public List<Enterprise> hotList(String isHot){
 		return enterpriseDao.findByIshot(isHot);

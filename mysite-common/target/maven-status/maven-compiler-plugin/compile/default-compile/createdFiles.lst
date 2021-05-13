@@ -1,7 +1,7 @@
-entity\PageResult.class
-util\JwtUtil.class
-util\IdWorker.class
-configuration\Swagger2Conf.class
-entity\Result.class
+common\util\JwtUtil.class
+common\entity\Result.class
+common\entity\PageResult.class
+common\entity\StatusCode.class
 common\Application.class
-entity\StatusCode.class
+common\configuration\Swagger2Conf.class
+common\util\IdWorker.class

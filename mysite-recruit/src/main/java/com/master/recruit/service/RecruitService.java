@@ -9,7 +9,7 @@ import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
 
-import util.IdWorker;
+import common.util.IdWorker;
 import com.master.recruit.dao.RecruitDao;
 import com.master.recruit.pojo.Recruit;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -51,7 +51,7 @@ public class RecruitService {
 	 * @Description 推荐职位
 	 * @Date 17:01 2021/4/27
 	 * @param state : 是否推荐
-	 * @return : java.util.List<Recruit>
+	 * @return : java.common.util.List<Recruit>
 	 **/
 	public List<Recruit> recommendRecruit(String state){
 		return recruitDao.findAllByState(state);

@@ -1,8 +1,8 @@
 package com.master.qa.client.impl;
 
 import com.master.qa.client.BaseClient;
-import entity.Result;
-import entity.StatusCode;
+import common.entity.Result;
+import common.entity.StatusCode;
 
 /**
  * @Classname BaseClientImpl

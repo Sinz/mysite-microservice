@@ -1,6 +1,5 @@
 package com.master.user.controller;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 import io.swagger.annotations.ApiOperation;
@@ -16,10 +15,10 @@ import org.springframework.web.bind.annotation.RestController;
 import com.master.user.pojo.Admin;
 import com.master.user.service.AdminService;
 
-import entity.PageResult;
-import entity.Result;
-import entity.StatusCode;
-import util.JwtUtil;
+import common.entity.PageResult;
+import common.entity.Result;
+import common.entity.StatusCode;
+import common.util.JwtUtil;
 
 /**
  * 控制器层

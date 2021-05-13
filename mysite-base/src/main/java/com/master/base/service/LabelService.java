@@ -2,7 +2,7 @@ package com.master.base.service;
 
 import com.master.base.pojo.Label;
 import com.master.base.dao.LabelDao;
-import util.IdWorker;
+import common.util.IdWorker;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.data.domain.Page;

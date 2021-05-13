@@ -1,9 +1,9 @@
 package com.master.recruit.controller;
 import java.util.Map;
 
-import entity.PageResult;
-import entity.Result;
-import entity.StatusCode;
+import common.entity.PageResult;
+import common.entity.Result;
+import common.entity.StatusCode;
 import com.master.recruit.pojo.Recruit;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

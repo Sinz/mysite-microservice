@@ -2,9 +2,9 @@ package com.master.article.controller;
 import java.util.Map;
 
 import com.master.article.pojo.Article;
-import entity.PageResult;
-import entity.Result;
-import entity.StatusCode;
+import common.entity.PageResult;
+import common.entity.Result;
+import common.entity.StatusCode;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
