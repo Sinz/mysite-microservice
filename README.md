@@ -238,7 +238,7 @@ spring:
   docker start registry
   
   4. docker maven plugin 设置如下， 然后直接maven clean , maven package就可以自动生成Dockerfile,并进行打包上传
-  clean package -Dmaven.test.skip=true -DarchetypeCatalog=internal docker:build -DpushImage(不知道为什么，每次都要重新下一边依赖，不过上传到jenkins不影响)
+  clean package -Dmaven.test.skip=true docker:build -DpushImage(不知道为什么，每次都要重新下一边依赖，不过上传到jenkins不影响)
   浏览器访问 http://192.168.184.135:5000/v2/_catalog ; 
   
   <build>
@@ -285,6 +285,10 @@ spring:
   
   6. 启动容器： docker run -di --name=eureka -p 6868:6868 192.168.89.137:5000/mysite-eureka:1.0-SNAPSHOT
   
+  7. docker日志查看：
+      docker logs --since 30m CONTAINER_ID
+      docker logs -t --since="2018-02-08T13:23:37" CONTAINER_ID
+  
 ```
 
 * 7. maven install 时，common包提示不存在， 
@@ -303,3 +307,5 @@ spring:
         </plugins>
     </build>
 ```
+
+
