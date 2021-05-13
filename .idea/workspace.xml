@@ -8,9 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfd2272e-5ce5-4b78-baed-ab47705f7b14" name="Default Changelist" comment="updata 2021/5/13">
-      <change afterPath="$PROJECT_DIR$/mysite-eureka/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-eureka/src/main/resources/eureka-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-base/src/main/resources/base-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-base/src/main/resources/base-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite-base/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite-base/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,12 +88,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mysite-eureka/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mysite-config/dev-config" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="settings.editor.splitter.proportion" value="0.26755556" />
   </component>
   <component name="ReactorSettings">
@@ -100,11 +101,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\mysite-microservice\mysite-config\dev-config" />
+      <recent name="D:\Project\mysite-microservice\mysite-eureka\src\main\resources" />
       <recent name="D:\Project\mysite-microservice\mysite-web\src\main\resources" />
       <recent name="D:\Project\mysite-microservice\mysite-user\src\main\resources" />
       <recent name="D:\Project\mysite-microservice\mysite-spit\src\main\resources" />
-      <recent name="D:\Project\mysite-microservice\mysite-sms\src\main\resources" />
-      <recent name="D:\Project\mysite-microservice\mysite-search\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Project\mysite-microservice\mysite-user" />
@@ -395,7 +396,7 @@
       <workItem from="1620459464558" duration="20949000" />
       <workItem from="1620654242051" duration="710000" />
       <workItem from="1620655016927" duration="53927000" />
-      <workItem from="1620903933101" duration="3418000" />
+      <workItem from="1620903933101" duration="5323000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1620802983416</created>
@@ -425,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620906575631</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updata 2021/5/13">
+      <created>1620907698822</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1620907698822</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

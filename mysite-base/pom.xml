@@ -71,4 +71,45 @@
 
   </dependencies>
 
+  <build>
+    <finalName>app</finalName>
+    <plugins>
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+      </plugin>
+      <!-- Docker maven plugin -->
+      <plugin>
+        <groupId>com.spotify</groupId>
+        <artifactId>docker-maven-plugin</artifactId>
+        <version>1.0.0</version>
+        <executions>
+          <execution>
+            <id>build-image</id>
+            <!--用户只需执行mvn package ，就会自动执行mvn docker:build-->
+            <phase>package</phase>
+            <goals>
+              <goal>build</goal>
+            </goals>
+          </execution>
+        </executions>
+
+        <configuration>
+          <imageName>192.168.89.137:5000/${project.artifactId}:${project.version}</imageName>
+          <baseImage>jdk1.8</baseImage>
+          <entryPoint>["java","-jar","/${project.build.finalName}.jar"]</entryPoint>
+          <resources>
+            <resource>
+              <targetPath>/</targetPath>
+              <directory>${project.build.directory}</directory>
+              <include>${project.build.finalName}.jar</include>
+            </resource>
+          </resources>
+          <dockerHost>http://192.168.89.137:2375</dockerHost>
+        </configuration>
+      </plugin>
+      <!-- Docker maven plugin -->
+    </plugins>
+  </build>
+
 </project>
